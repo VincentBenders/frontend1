@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: 600;
+}
+nav, header, section{
+    padding: 5px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav {
+    text-align: right;
+    background-color: #717D96;
+}
+header{
+    background-color: #A0ABC0;
+}
+.s2 {
+    background-color: #E2E7F0;
+    
+}
+.s2 p{
+    width: 70vw;
+    float: left;
+}
+
+footer{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4A5468;
+}
+.pfp{
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+}
+.foto{
+  
+    width: 25vw;
+}
