@@ -1,46 +1,82 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+body {
     font-family: sans-serif;
-}
-h1{
-    font-weight: 800;
-}
-h2{
-    font-weight: 600;
-}
-nav, header, section{
-    padding: 5px;
-}
-a:link, a:visited{
-    text-decoration: none;
-    color: #FFFFFF;
-}
-nav {
-    text-align: right;
-    background-color: #717D96;
-}
-header{
-    background-color: #A0ABC0;
-}
-.s2 {
-    background-color: #E2E7F0;
-    
-}
-.s2 p{
+    margin: 1vw auto;
     width: 70vw;
-    float: left;
 }
 
-footer{
+h1 {
+    font-weight: 800;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #457B9D;
+    color: white;
+}
+
+a {
+    color: black;
+    width: 10vw;
+    padding: 15px 20px;
+}
+
+nav {
+    /*     background-color: yellowgreen; */
+    display: flex;
+}
+
+.links {
+    padding: 15px 0px;
+}
+
+.head {
+    background-color: #A0ABC0;
+    border-radius: 5px;
+    padding: 2vw 4vw;
+}
+
+.s1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    padding: 1vw;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 30vw;
+}
+
+.img img {
+    width: 15vw;
+}
+
+button {
+    padding: 1vw 2vw;
+    font-weight: 600;
+    border: 2px solid rgb(38, 38, 110);
+    border-radius: 5px;
+}
+
+button::hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
     text-align: center;
     color: #FFFFFF;
     background-color: #4A5468;
-}
-.pfp{
-    height: 5vw;
-    width: 5vw;
-    border-radius: 50%;
-}
-.foto{
-  
-    width: 25vw;
 }
